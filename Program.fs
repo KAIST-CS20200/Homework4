@@ -5,7 +5,7 @@
 /// `haystack`. For example, if "abcabc" and "ab" are given, the function should
 /// return 2.
 let countOccurrence (haystack: string) (needle: string) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `rotate` that takes in a list `lst` and an integer `n`, and
 /// returns a new list with the elements of `lst` rotated `n` times either to
@@ -14,7 +14,7 @@ let countOccurrence (haystack: string) (needle: string) =
 /// rotation is to the left. For example, if the list is [1; 2; 3; 4; 5] and
 /// `n` is 2, the function should return [4; 5; 1; 2; 3].
 let rotate lst n =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// We represent a matrix as a list of lists. Each sublist represents a row of
 /// the matrix. For example, the matrix `[ [1; 2; 3]; [4; 5; 6]; [7; 8; 9] ]` is
@@ -39,13 +39,13 @@ module SqMatrix =
 /// always well-formed because it is always created using the `SqMatrix.init`
 /// function.
 let diagonal (matrix: SqMatrix<_>) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `transpose` that takes in a square matrix and returns a new
 /// matrix that is the transpose of the input matrix. The transpose of a matrix
 /// is obtained by swapping the rows and columns of the matrix.
 let transpose (matrix: SqMatrix<_>) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `hanoi` that takes in three integers `startPos`, `endPos`,
 /// and `n`, and returns a list of tuples representing the sequence of moves
@@ -68,7 +68,7 @@ let transpose (matrix: SqMatrix<_>) =
 /// For example, a pair (1, 2) means that the disk is moved from the first peg to
 /// the second peg.
 let hanoi startPos endPos n =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 [<EntryPoint>]
 let main _args =
