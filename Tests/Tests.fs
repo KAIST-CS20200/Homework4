@@ -7,23 +7,23 @@ type TestClass () =
 
   [<TestMethod; Timeout 1000; TestCategory "1">]
   member __.``Problem 1.A``() =
-    let r = Program.countOccurrence "my name is Ann" "n"
-    Assert.AreEqual (3UL, r)
+    let r: uint64 = Program.countOccurrence "my name is Ann" "n"
+    Assert.AreEqual<uint64> (3UL, r)
 
   [<TestMethod; Timeout 1000; TestCategory "1">]
   member __.``Problem 1.B``() =
-    let r = Program.countOccurrence "Hello FSharp World" "A"
-    Assert.AreEqual (0UL, r)
+    let r: uint64 = Program.countOccurrence "Hello FSharp World" "A"
+    Assert.AreEqual<uint64> (0UL, r)
 
   [<TestMethod; Timeout 1000; TestCategory "1">]
   member __.``Problem 1.C``() =
-    let r = Program.countOccurrence "131311313313131331333313" "13"
-    Assert.AreEqual (9UL, r)
+    let r: uint64 = Program.countOccurrence "131311313313131331333313" "13"
+    Assert.AreEqual<uint64> (9UL, r)
 
   [<TestMethod; Timeout 1000; TestCategory "1">]
   member __.``Problem 1.D``() =
-    let r = Program.countOccurrence "1111111" "11"
-    Assert.AreEqual (6UL, r)
+    let r: uint64 = Program.countOccurrence "1111111" "11"
+    Assert.AreEqual<uint64> (6UL, r)
 
   [<TestMethod; Timeout 1000; TestCategory "2">]
   member __.``Problem 2.A``() =
