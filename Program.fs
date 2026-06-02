@@ -1,4 +1,4 @@
-﻿module CS220.Program
+module CS220.Program
 
 /// Write a function `countOccurrence` that takes in a string `haystack` and a
 /// string `needle`, and returns the number of times `needle` occurs in
@@ -33,11 +33,11 @@ module SqMatrix =
       if equalSize then rows else failwith "Not a square matrix"
 
 /// Write a function `diagonal` that takes in a square matrix and returns a list
-/// containing the elements of the main diagonal of the matrix. The main diagonal
-/// of a matrix is the list of elements that starts at the top-left corner of the
-/// matrix and ends at the bottom-right corner. We assume that SqMatrix type is
-/// always well-formed because it is always created using the `SqMatrix.init`
-/// function.
+/// containing the elements of the main diagonal of the matrix. The main
+/// diagonal of a matrix is the list of elements that starts at the top-left
+/// corner of the matrix and ends at the bottom-right corner. We assume that
+/// SqMatrix type is always well-formed because it is always created using the
+/// `SqMatrix.init` function.
 let diagonal (matrix: SqMatrix<_>) =
   failwith "TODO" // REMOVE this line when you implement your own code
 
@@ -58,15 +58,15 @@ let transpose (matrix: SqMatrix<_>) =
 /// game:
 /// - Only one disk can be moved at a time.
 /// - Each move consists of taking the top (smallest) disk from one of the rods
-///   and sliding it onto another rod, on top of the other disks that may already
-///   be present on that rod.
+///   and sliding it onto another rod, on top of the other disks that may
+///   already be present on that rod.
 /// - No disk may be placed on top of a smaller disk.
 /// This function should return an optimal solution, which is a minimal list of
-/// moves to make. Each move is represented as a tuple of two integers, where the
-/// first integer is the position of the peg from which the disk is moved, and
-/// the second integer is the position of the peg to which the disk is moved.
-/// For example, a pair (1, 2) means that the disk is moved from the first peg to
-/// the second peg.
+/// moves to make. Each move is represented as a tuple of two integers, where
+/// the first integer is the position of the peg from which the disk is moved,
+/// and the second integer is the position of the peg to which the disk is
+/// moved.  For example, a pair (1, 2) means that the disk is moved from the
+/// first peg to the second peg.
 let hanoi startPos endPos n =
   failwith "TODO" // REMOVE this line when you implement your own code
 
